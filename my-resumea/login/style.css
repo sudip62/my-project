@@ -1,0 +1,222 @@
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+   
+
+
+    .loginpage{
+
+width: 20vw;
+margin-left: 42%;
+margin-top: 10%;
+background-color: aliceblue;
+backdrop-filter: blur(2px);
+border-radius: 10px;
+border-color:coral ;
+border: 2.5px solid skyblue;
+
+    }
+
+    .container{
+     margin-left:10% ;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        padding: 15px;
+        border-radius: 5px;
+      
+    }
+
+    input{
+        margin: 5px 0px;
+        height: 35px;
+        padding: 7px;
+
+    }
+
+    #lobt{
+        height: 35px;
+        margin: 5px 0px;
+        background-color: skyblue;
+        border: none;
+        border-radius: 5px;
+        color: #333;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+     #lobt:hover{
+        background-color: rgb(12, 166, 243);
+        color: antiquewhite;
+    }
+
+.imgcontainer{
+    
+    width: 200px;
+margin-left: 25%;
+margin-top: 21%;
+    margin-bottom: 5%;
+  ;
+}
+
+.inputimg{
+    height: 150px;
+   width: 150px;
+ border-radius:50% ;
+ padding: 2%;
+margin-left: 10%;
+object-fit: cover;
+
+  background-image:url('upload image icon.png') ;
+    background-position: center;
+    background-size: cover;
+    align-items: center
+}
+
+.imp{
+    display: none;
+}
+.imgcontainer label{
+    display: block;
+    width: 140px;
+    background-color: #e3362c;
+    padding-left:  25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px 23px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+.r{
+    color: red;
+    font-weight: 600;
+    visibility: hidden;
+
+}
+.div2{
+    height: 625px;
+    width: 380px;
+   background: linear-gradient(0deg, rgb(58, 130, 238) 10.16%, rgb(161, 248, 170) 48.5%);
+    border: 2.5px solid skyblue;
+    position: absolute;
+    left: 42%;
+    top: 18%;
+    border-radius: 10px;
+   
+}
+.img2{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    position: relative;
+    left: 120px;
+    top: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-image:url('Untitled design  crop 2.jpg') ;
+  background-size: cover;
+    background-position:center;
+    align-items: center;
+    
+    
+
+}
+.name2{
+height: 15px;
+margin: 18px;
+padding: 39px;
+position: relative;
+top: 50px;
+left: 70px;
+color:#333;
+letter-spacing: 1px;
+
+}
+.gmail2{
+height: 15px;
+max-width: 350px;
+margin-top: 10px;
+position: relative;
+top: 70px;
+left: 20px;
+}
+
+
+.logout{
+    height: 50px;
+    width: 200px;
+    position: relative;
+    top: 30%;
+    left: 20%;
+    background: linear-gradient(0deg, rgb(115, 243, 157) 20.16%, rgb(216, 238, 142) 50.5%);
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    color:#000;
+   
+} 
+
+
+.dasbord{
+      height: 50px;
+    width: 200px;
+    position: relative;
+    top: 25%;
+    left: 20%;
+   background: linear-gradient(0deg, rgb(157, 244, 153) 20.16%, rgb(122, 236, 227) 50.5%);
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#crox{
+    height: 30px;
+    width: 25px;
+    font-size: 22px;
+    font-weight: 500;
+    border: none;
+    position: absolute;
+    left: 90%;
+    top: 2%;
+    cursor: pointer;
+    color: #000;
+}
+
+@media (max-width:640px) {
+    .loginpage{
+        width: 350px;
+        margin-left: 1.5%;
+       
+    }
+
+    .div2{
+        width: 350px;
+        left: 1.5%;
+        top: 5.3%;
+    }
+    .gmail2{
+        font-size: 20px;
+        max-width: 350px;
+      
+      
+        margin: 0px 5px;
+    }
+
+    .name2{
+        max-width: 300px;
+        margin: 25px;
+    }
+.img2{
+    object-fit: cover;
+}
+    
+}

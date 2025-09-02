@@ -1,0 +1,479 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hed {
+    border: 1px solid;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    background-image: url(img.file/c84fc78a-4eaf-46ed-bb45-1b50f402e1a2.jpg);
+    
+    background-position: center center;
+    background-size: 100vw;
+
+
+}
+
+
+.logo {
+    margin-top: 10px;
+    height: 50px;
+    width: 100px;
+    margin-right: 300px;
+    font-size: 35px;
+    font-weight: bolder;
+
+    color: red;
+    letter-spacing: 0.8px;
+text-shadow:2px 1px 1px #fff;
+
+}
+
+
+
+.login {
+
+    height: 71px;
+    margin-left: 350px;
+}
+
+.btn {
+    height: 28px;
+    width: 80px;
+    margin: 10px 0 10px 0;
+    border: 1px solid;
+    color: #fff;
+    background-color: rgb(69, 70, 69);
+    border-radius: 8px 0 8px 0;
+    box-shadow: inset;
+    padding: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+#b1 {
+    background-color: red;
+}
+
+.btn:hover {
+    color: orange;
+}
+
+
+.section1 {
+    height: 500px;
+    width: 100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* border-top: 1rem solid red;
+    border-top-left-radius: 50% 20%;
+    border-top-right-radius: 50% 20%; */
+
+}
+
+
+.card img {
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.card {
+    height: 300px;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+    &:hover{
+        height: 305px;
+        width: 204px;
+    }
+}
+
+.para p{
+ position: relative; 
+left: 50px;
+top: 75px;
+ font-size: 1.5rem;
+ font-weight: 600;
+
+ height: 50px;
+ width: 100%;
+ 
+}
+
+.section2{
+   
+    height: 350px;
+    width: 100%;
+}
+
+.section2 p{
+    position: relative;
+    top: 10px;
+    left: 25px;
+    margin: 5px;
+    padding: 3px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.cardi{
+    margin-top: 10px;
+    height:280px;
+    width: 300px;
+    border: 1px solid;
+    border-radius: 12px;
+    background-color: hsla(300, 100%, 0%, 0.894);
+    color: #fff;
+    margin: 16px;
+    padding: 20px 30px;
+}
+
+
+.mambership{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.input2{
+    height: 45px;
+    width: 50%;
+    margin: 5px;
+}
+
+.input2 input{
+    height: 100%;
+    width: 60%;
+    margin: 2px;
+    padding: 15px;
+    border-color: red;
+    border-radius: 8px;
+    font-size: 18px;
+}
+.input2 button{
+    width: 25%;
+    height: 100%;
+    margin: 2px;
+    padding: 5px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    &:hover {
+        background-color: rgb(69, 70, 69)
+    }
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.item {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.item a {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+    margin: 5px;
+}
+
+
+
+
+
+.contant {
+
+    position: absolute;
+    top: 180px;
+    left: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent;
+    color: #fff;
+
+}
+
+h1 {
+    margin: 8px;
+    padding: 4px;
+    font-weight: 700;
+}
+
+h3 {
+    margin: 5px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+h4 {
+    margin: 5px;
+    padding: 2px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.input {
+
+    width: 50%;
+    height: 40px;
+    margin-top: 8px;
+}
+
+.input input {
+    border-color: red;
+    border-radius: 5px;
+
+    height: 25px;
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.input button {
+    background-color: red;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    height: 25px;
+    width: 110px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgb(69, 70, 69)
+    }
+}
+
+
+.contantdiv{
+   
+    background-color:rgb(54, 45, 45);
+ 
+    height: 500px;
+    width: 650px;
+    position: absolute;
+    z-index: 10px;
+    overflow: hidden;
+    overflow: scroll;
+    display: none;
+    
+        
+}
+   
+.video{
+    margin: 5px;
+   
+    height: 180px;
+    width: 300px;
+    padding: 0;
+    display: inline-block;
+    
+    
+}
+.video video{
+    
+    height: 100%;
+    width: 100%;
+}
+
+.option{
+    color: #fff;
+    text-shadow:1px 2.5px 0px red;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.option button{
+    margin-left: 40%;
+    height: 80%;
+    width: 7.5%;
+    font-size: 18px;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+
+.disnone{
+    display: none;
+}
+.disblock{
+    display: block;
+}
+
+#fristcard{
+    cursor: pointer;
+}
+
+
+ /* @meditaquary stard */
+
+@media (max-width:640px){
+    .hed{
+        max-width: 640px;
+        height: 350px;
+        
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .logo {
+    width: 92px;
+    
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: -55%;
+    margin-left: 1%;
+    text-shadow:1px 0px 0px #fff;
+    }
+
+    .login{
+        height: 50px;
+        width: 130px;
+        margin-left: 200px;
+        
+        margin-top: -15%;
+    }
+    .btn{
+        height: 20px;
+         width: 60px;
+         font-size: 12px;
+         padding: 0%;
+         margin: 10px 0 10px 0; 
+        
+    }
+    .contant{
+  position: absolute;
+    top: 120px;
+    left:5px;
+    right: 5px;
+
+    }
+
+    h1 {
+    margin: 1%;
+    padding: 1%;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h3 {
+    margin: 0%;
+    padding: 0%;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+h4 {
+    margin: 5px;
+    padding: 2px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+    .input{
+        
+        height: 80px;
+        width: 80%;
+        display: flex;
+        
+        margin-left: -2%;
+        align-items: center;
+    }
+    .input input{
+width: 180px;
+    }
+
+.input button{
+    margin-top: 5px;
+    width: 80px;
+    font-size: 12px;
+    font-weight: 500;
+    
+}
+
+.section1 {
+    margin-top:200% ;
+  margin-bottom: 200%;
+    display: flex;
+    flex-direction: column;
+flex-wrap: nowrap;
+
+}
+
+.section2{
+    display: none;
+}
+.mambership{
+    display: none;
+}
+footer{
+    display: none;
+}
+
+.contantdiv{
+    height: 600px;
+    width: 350px;
+    margin-left:0%;
+    margin-top: -380%;
+}
+.video{
+    margin-left: 7%;
+}
+
+.option{
+height: 35px;
+ text-shadow:0px 1px 0px red;
+ 
+}
+.option h1{
+    font-size: 16px;
+}
+.option button{
+   height: 75%;
+   width: 8.5%;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+}
